@@ -18,5 +18,7 @@
 7.  Try to revert changes on your last commit, make new changes and recommit
 	a. Revert changes: git rever -n HEAD
 	b. Change html file
-	c. Recommit: First add file using "git add index.html" and then recommit using "commit -m "changes to index.html"".
+	c. Recommit: First add file using "git add index.html" and then recommit using "commit -m "changes to index.html””.
+
+8.  Made some changes to this file in order to demonstrate changing this file before sending changes to GitHub.
 	
