@@ -1,0 +1,22 @@
+1. Open terminal and navigate to your desktop: No command
+2. Navigate to desktop: 
+	a. First pwd to confirm current directory isn't Desktop.
+	b. Change to root directory using: cd /
+	c. Change to Desktop: cd Users/laurenporr/Desktop
+3. Create a new directory, call it 'test: mkdir test
+4. Create two files, 'index.html' & styles.css'
+	a. Switch to directory: cd test
+	b. Create files: touch index.html styles.css
+5.  Write some html in the html file and commit changes with the message 'updated html'
+	a. After modifying the html file, initialize git file: git init
+	b. Add html file to repository: git add index.html
+	c. Commit: git commit -m "updated html"
+5.  Add some style to your css file and commit changes with the message 'updated cssl'
+	a. Add html file to repository: git add styles.css
+	b. Commit: git commit -m "updated cssl"
+6.  View the logs to see your commit history: git log
+7.  Try to revert changes on your last commit, make new changes and recommit
+	a. Revert changes: git rever -n HEAD
+	b. Change html file
+	c. Recommit: First add file using "git add index.html" and then recommit using "commit -m "changes to index.html"".
+	
